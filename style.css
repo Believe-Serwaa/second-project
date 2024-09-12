@@ -15,8 +15,14 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: 50;
     background-color: black;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
   }
   
   .nav-items {
@@ -29,7 +35,7 @@
   
   #hero-title {
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
   }
   
@@ -168,6 +174,8 @@
 
 #text-blue{
   color: #1089FF;
+  margin: 30px;
+  margin-left: 15px;
 }
   
   
