@@ -1,84 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarVilla</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarBook</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <nav>
-        <h4>CARVILLA</h4>
-        <div class="nav-items">
-            <a class="text-black" href="#home">HOME</a>
-            <a class="text-black" href="#service">SERVICE</a>
-            <a class="text-black" href="#featured cars">FEATURED CARS</a>
-            <a class="text-black" href="#new cars">NEW CARS</a>
-            <a class="text-black" href="#brands">BRANDS</a>
-            <a class="text-black" href="#contact">CONTACT</a>
-        </div>
+      <h4 class="text-white">CARBOOK</h4>
+      <div class="nav-items">
+        <a class="text-white" href="#home">HOME</a>
+        <a class="text-white" href="#about">ABOUT</a>
+        <a class="text-white" href="#services">SERVICES</a>
+        <a class="text-white" href="#pricing">PRICING</a>
+        <a class="text-white" href="#cars">CARS</a>
+        <a class="text-white" href="#blog">BLOGS</a>
+        <a class="text-white" href="#contact">CONTACT</a>
+      </div>
     </nav>
 
     <section id="hero">
-        <div class="overlay">
-          <h1 id="hero-title">GET YOUR DESIRED CAR IN REASONABLE PRICE</h1>
-          <p id="hero-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, recusandae.</p>
-          <button id="hero-button">Contact Us</button>
-        </div>
-      </section>
+      <div class="overlay">
+        <h2 id="hero-title">Fast & Easy Way To Rent A Car</h2>
+        <p id="hero-subtext">
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia.
+        </p>
+        <button id="hero-button">Contact Us</button>
+      </div>
+    </section>
 
-      <section id="works">
-        <div class="header">
-          <h2>Our Featured Cars</h2>
-          <p>Featured Cars</p>
-        </div>
-  
-        <div id="gallery">
-          <div class="gallery-item">
-            <img src="./images/image1.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>BMW 6-Series Gran Coupe</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="./images/image2.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>Chevrolet Camaro WMV20</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="./images/image3.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>Lamborghini V520</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="./images/image4.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>Infiniti Z5</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="./images/image5.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>Porche 718 Cayman</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-          <div class="gallery-item">
-            <img src="./images/image6.png" alt="gallery image" />
-            <div class="gallery-overlay">
-              <span>BMW XSeries-6</span>
-              <span>Model 2017</span>
-            </div>
-          </div>
-        </div>
-      </section>
-  
+    <section id="car-works">
+      <h5 id="text-blue">WHAT WE OFFER</h5>
+      <h2>Featured Cars</h2>
 
-</body>
+      <div id="car-items">
+        <div class="featured-car">
+          <img src="./images/car-1.jpg" alt="car image" />
+  
+          <div class="car-item">
+            <div class="car-item-detail">
+              <span><b>Chevrolet</b></span>
+              <span>GHC500/day</span>
+            </div>
+            <div class="featured-car-btn">
+              <button class="book-btn">Book Now</button>
+              <button class="details-btn">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-car">
+          <img src="./images/car-2.jpg" alt="car image" />
+  
+          <div class="car-item">
+            <div class="car-item-detail">
+              <span><b>Range Rover</b> </span>
+              <span>GHC700/day</span>
+            </div>
+            <div class="featured-car-btn">
+              <button class="book-btn">Book Now</button>
+              <button class="details-btn">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-car">
+          <img src="./images/car-3.jpg" alt="car image" />
+  
+          <div class="car-item">
+            <div class="car-item-detail">
+              <span><b> Lamborghini</b></span>
+              <span>GHC1000/day</span>
+            </div>
+            <div class="featured-car-btn">
+              <button class="book-btn">Book Now</button>
+              <button class="details-btn">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="featured-car">
+          <img src="./images/car-4.jpg" alt="car image" />
+  
+          <div class="car-item">
+            <div class="car-item-detail">
+              <span><b>Chevrolet</b></span>
+              <span>GHC800/day</span>
+            </div>
+            <div class="featured-car-btn">
+              <button class="book-btn">Book Now</button>
+              <button class="details-btn">Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h4>Services</h4>
+      <p>Our Latest Services</p>
+      <div>
+        <span>
+          <h3>Wedding Ceremony</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </span>
+        <span>
+          <h3>City Transfer</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </span>
+        <span>
+          <h3>Airport Transfer</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </span>
+        <span>
+          <h3>Whole City Tour</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </span>
+      </div>
+    </section>
+  </body>
 </html>
